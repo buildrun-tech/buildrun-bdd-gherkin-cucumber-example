@@ -16,13 +16,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.springframework.util.MimeTypeUtils.APPLICATION_JSON_VALUE;
 
-public class RoomSteps {
+public class RoomStepsTest {
 
     private ScenarioContext scenarioContext;
     private RestConfig restConfig;
 
-    public RoomSteps(ScenarioContext scenarioContext,
-                     RestConfig restConfig) {
+    public RoomStepsTest(ScenarioContext scenarioContext,
+                         RestConfig restConfig) {
         this.scenarioContext = scenarioContext;
         this.restConfig = restConfig;
     }

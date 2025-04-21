@@ -7,12 +7,12 @@ import io.restassured.response.Response;
 import tech.buildrun.cucumber.config.RestConfig;
 import tech.buildrun.cucumber.config.ScenarioContext;
 
-public class UnbookSteps {
+public class UnbookStepsTest {
 
     private final RestConfig rest;
     private final ScenarioContext scenarioContext;
 
-    public UnbookSteps(RestConfig rest, ScenarioContext scenarioContext) {
+    public UnbookStepsTest(RestConfig rest, ScenarioContext scenarioContext) {
         this.rest = rest;
         this.scenarioContext = scenarioContext;
     }

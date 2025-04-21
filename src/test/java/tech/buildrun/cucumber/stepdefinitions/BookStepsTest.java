@@ -11,15 +11,15 @@ import tech.buildrun.cucumber.service.BookService;
 
 import java.time.LocalTime;
 
-public class BookSteps {
+public class BookStepsTest {
 
     private final RestConfig rest;
     private final ScenarioContext scenarioContext;
     private final BookService bookService;
 
-    public BookSteps(RestConfig rest,
-                     ScenarioContext scenarioContext,
-                     BookService bookService) {
+    public BookStepsTest(RestConfig rest,
+                         ScenarioContext scenarioContext,
+                         BookService bookService) {
         this.rest = rest;
         this.scenarioContext = scenarioContext;
         this.bookService = bookService;

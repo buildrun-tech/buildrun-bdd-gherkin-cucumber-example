@@ -9,11 +9,11 @@ import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
 import tech.buildrun.cucumber.config.ScenarioContext;
 
-public class SiteSteps {
+public class SiteStepsTest {
 
     private final ScenarioContext scenarioContext;
 
-    public SiteSteps(ScenarioContext scenarioContext) {
+    public SiteStepsTest(ScenarioContext scenarioContext) {
         this.scenarioContext = scenarioContext;
     }
 
